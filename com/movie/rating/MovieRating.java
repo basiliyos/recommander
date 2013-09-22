@@ -16,5 +16,10 @@ public class MovieRating {
         return String.format(" User ID:" + this.userID + " Movie ID: " + this.movieID + " Rating:" + this.rating );
     }
 
+    public MovieRating(Integer userID, Integer movieID, Float rating){
+        this.userID = userID;
+        this.movieID = movieID;
+        this.rating = rating;
+    }
 
 }
